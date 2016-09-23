@@ -11,6 +11,4 @@ public class Dog extends Animal {
 	void say(){
 		System.out.println(age +"才の"+ name +"が鳴きました");
 	}
-
-
 }
