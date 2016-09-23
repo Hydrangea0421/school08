@@ -4,5 +4,6 @@ public class Cat {
 
 	public void say() {
 		System.out.println("ニャー");
+		System.out.println("ワン");
 	}
 }
