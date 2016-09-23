@@ -1,0 +1,32 @@
+package chap7;
+
+import java.util.Scanner;
+
+public class Max3Method {
+
+	static int max(int a, int b, int c) {
+		int max = a;
+		if (b > max)
+			max = b;
+		if (c > max)
+			max = c;
+		return max;
+	}
+
+	public static void main(String[] args) {
+		Scanner stdIn = new Scanner(System.in);
+
+
+		System.out.println("変数a：");
+		int a = stdIn.nextInt();
+		System.out.println("変数b：");
+		int b = stdIn.nextInt();
+		System.out.println("変数c：");
+		int c = stdIn.nextInt();
+
+		System.out.println("最大値は" + max(a, b, c) + "です。");
+
+		stdIn.close();
+	}
+
+}
